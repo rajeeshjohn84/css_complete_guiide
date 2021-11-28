@@ -1,3 +1,8 @@
+body {
+  /* font-family: "Anton", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
 #product-overview {
   background: #ff1b68;
 }
