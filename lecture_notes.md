@@ -54,3 +54,42 @@ div p {
 - <ins>**Adjacent Siblings**</ins>: CSS will collapse the margin and only apply the bigger one between the elements.
 - <ins>**Parent with children that have margin**</ins>: Same as above, the bigger margin is applied. If the parent element has padding, inline-content or a border, this behaviour should not occur, the child margin will instead be added to the content of the wrapping parent element.
 - <ins>**An empty element with margins**</ins>: This case probably doesn't occur that often but if you got an element with no content, no padding, no border and no height, then the top and bottom margin will be merged into single margin. Again, the bigger one wins.
+
+## <ins>Shorthand Properties</ins>
+
+Many css properties have shorthand versions for instance:
+
+```css
+h1 {
+  border-color: #ffddee;
+  border-style: solid;
+  border-width: 5px;
+}
+```
+
+These three properties can be squeezed in to one property:
+
+```css
+h1 {
+  border: 5px solid #ffddee;
+}
+```
+
+Use shorthands where ever possible but sometimes we need to have extra control on the styling our element.
+
+```css
+div {
+  margin: 10px; /* all around 10px margin*/
+}
+
+section {
+  margin: 10px 5px; /*top-bottom 10px; left-right 5px*/
+}
+
+p {
+  /* top, right, bottom, left*/
+  margin: 10px 15px 20px 30px;
+}
+```
+
+_Refer [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) to see other such properties_
