@@ -48,6 +48,8 @@ div p {
   - `border`
   - `margin`
 - Of these `margin` is not part of the element `width` & `height`
+- The `width` & `height` properties affect the content and not the margin, border or padding. Although when the browser renders the element it takes into account all the properties. Hence affecting the size & positioning of the element on the page.
+- `box-sizing` has a default value of `content-box` that gives the previous result for `width` and `height`. Changing `box-sizing` to `border-box` will include `border` and `padding` to the `content-width` and `content-height` (does not include margin).
 
 ## <ins>CSS Margin Collapse</ins>
 
