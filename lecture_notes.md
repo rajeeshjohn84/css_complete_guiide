@@ -95,3 +95,8 @@ p {
 ```
 
 _Refer [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) to see other such properties_
+
+## <ins>Pseudo Classes & Pseudo Elements</ins>
+
+- **pseudo-classes** defines the style of a _special state_ of an element. It is represented using a `:`
+- **pseudo-element** defines the style of a _specific part_ of an element. It is represented using a `::`
