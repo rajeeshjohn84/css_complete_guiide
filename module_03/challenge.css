@@ -24,6 +24,7 @@ body {
 
 #box2 {
   width: 46%;
+  height: 300px;
 }
 
 div:last-of-type:hover {
