@@ -35,6 +35,25 @@ body {
   vertical-align: middle;
 }
 
+/* plan__title */
+
+.plan__title {
+  color: #0e4f1f;
+}
+
+/* plan__price */
+
+.plan__price {
+  color: #858585;
+}
+
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
 .plan ul {
   list-style: none;
   margin: 0;
