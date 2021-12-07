@@ -35,11 +35,29 @@ body {
   vertical-align: middle;
 }
 
+.plan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan ul li {
+  margin: 8px 0;
+}
+
 /*  RECOMMENDED SECTION */
 .plan--highlighted {
   background: #19b84c;
   color: white;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+  background: white;
+  color: #19b84c;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
 .main-header {
