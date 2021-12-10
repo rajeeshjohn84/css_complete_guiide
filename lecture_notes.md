@@ -100,3 +100,9 @@ _Refer [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Shor
 
 - **pseudo-classes** defines the style of a _special state_ of an element. It is represented using a `:`
 - **pseudo-element** defines the style of a _specific part_ of an element. It is represented using a `::`
+
+## <ins>Positioning</ins>
+
+- The `position` property is already set to `static` by browser css engine.
+- Available values for `position` is `static`, `absolute`, `relative`, `fixed`, `sticky`.
+- When `position` is not `static`, we can assign values to `top`, `bottom`, `left`, `right` properties of the element to position it in the document/webpage.
