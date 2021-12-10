@@ -108,3 +108,14 @@ _Refer [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Shor
 - When `position` is not `static`, we can assign values to `top`, `bottom`, `left`, `right` properties of the element to position it in the document/webpage.
 - `z-index` can only be applied to elements that has `position` property.
 - Two elements with same `position` & `z-index` value of `auto`, the arrangement on the webpage will be based on their order in the HTML document. Elements that occur earlier in the document is send behind the ones that come after.
+
+### `fixed`
+
+- Keeps the element _fixed_ to the webpage as defined by `top`, `right`, `bottom`, `left`.
+- Takes element out of document flow.
+- Uses position of **view-port**.
+
+### `absolute`
+
+- If the parent element (or any element up the heirarchy) has no value for `position`; then position value of `<html>` is used.
+- If we have a positioned parent element, then its position on webpage is used as reference (source point) to position the element.
