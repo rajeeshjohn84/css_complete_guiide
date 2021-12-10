@@ -106,3 +106,5 @@ _Refer [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Shor
 - The `position` property is already set to `static` by browser css engine.
 - Available values for `position` is `static`, `absolute`, `relative`, `fixed`, `sticky`.
 - When `position` is not `static`, we can assign values to `top`, `bottom`, `left`, `right` properties of the element to position it in the document/webpage.
+- `z-index` can only be applied to elements that has `position` property.
+- Two elements with same `position` & `z-index` value of `auto`, the arrangement on the webpage will be based on their order in the HTML document. Elements that occur earlier in the document is send behind the ones that come after.
