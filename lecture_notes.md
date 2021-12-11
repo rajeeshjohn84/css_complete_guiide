@@ -119,3 +119,20 @@ _Refer [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Shor
 
 - If the parent element (or any element up the heirarchy) has no value for `position`; then position value of `<html>` is used.
 - If we have a positioned parent element, then its position on webpage is used as reference (source point) to position the element.
+
+### `relative`
+
+- Unlike `fixed` & `absolute`, `relative` positioning uses the elements original position into account.
+- It is not removed from the document flow.
+- The reference point is the element's original position in the DOM.
+
+**`overflow: hidden`**
+
+- When applied to parent element, the child elements outside its margins will not be visible.
+- When applied to `body`, it is passed on to `html` element. This is default browser behaviour. Unless `html` already has an explicitly defined `overflow` property.
+
+### `sticky`
+
+- A hybrid of `fixed` & `relative`.
+- Behaves like `relative` until a certain threshold is reached in relation to the _viewport_.
+- When the threshold is reached, the element behaves like `fixed` position element until the boundaries of parent/content end is reached.
