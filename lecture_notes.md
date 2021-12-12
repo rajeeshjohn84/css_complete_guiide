@@ -136,3 +136,21 @@ _Refer [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Shor
 - A hybrid of `fixed` & `relative`.
 - Behaves like `relative` until a certain threshold is reached in relation to the _viewport_.
 - When the threshold is reached, the element behaves like `fixed` position element until the boundaries of parent/content end is reached.
+
+## <ins>Background</ins>
+
+### `background-sizing`
+
+```css
+div {
+  background-image: url("path/to/image.jpg");
+  background-sizing: 100px;
+  /* OR */
+  background-sizing: contain; /* cover is also a predefined value */
+}
+```
+
+**`cover`** crops the image to fit the width & height of container.
+**`contain`** tries to fit the entire image in the container. Depending on the image size, it may or may not fill the container.
+
+### `background-position`
