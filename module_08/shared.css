@@ -30,7 +30,7 @@ body {
 
 .main-header {
   background: #2ddf5c;
-  width: 100%;
+  width: 100vw;
   /* padding: 0.5rem 1rem; */
   padding: 0;
   position: fixed;
