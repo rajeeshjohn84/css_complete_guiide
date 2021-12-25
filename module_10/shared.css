@@ -70,8 +70,8 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.3rem;
-  height: 1.3rem;
+  font-size: 1.5rem;
+  /* height: 1.3rem; */
   /* width: 20px; */
   display: inline-block;
   vertical-align: middle;
@@ -79,15 +79,15 @@ body {
 
 .main-header__brand img {
   /* width: 100%; */
-  height: 100%;
+  height: 2.5rem;
 }
 
 /*  MAIN NAVIGATION */
 
 .main-nav {
-  display: inline-block;
+  display: none;
   /* small space between tags. weird html/css behaviour for inline-block elements*/
-  width: calc(100% - 122px);
+  width: calc(100% - 44px);
   text-align: right;
   vertical-align: middle;
 }
@@ -139,6 +139,19 @@ body {
   border: none;
 }
 
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 44px);
+    vertical-align: middle;
+  }
+}
+
 .main-footer {
   background: black;
   padding: 2rem;
@@ -153,8 +166,8 @@ body {
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  display: block;
+  margin: 1rem 0;
 }
 
 .main-footer__link a {
@@ -219,4 +232,11 @@ body {
 
 .open {
   display: block !important;
+}
+
+@media (min-width: 40rem) {
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 1rem;
+  }
 }
