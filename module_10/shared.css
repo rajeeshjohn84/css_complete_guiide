@@ -15,6 +15,11 @@ body {
   /* height: 100%; */
 }
 
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
+}
+
 .backdrop {
   position: fixed;
   display: none;
@@ -70,8 +75,8 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
-  /* height: 1.3rem; */
+  /* font-size: 1.5rem; */
+  height: 2.5rem;
   /* width: 20px; */
   display: inline-block;
   vertical-align: middle;
@@ -79,7 +84,7 @@ body {
 
 .main-header__brand img {
   /* width: 100%; */
-  height: 2.5rem;
+  height: 100%;
 }
 
 /*  MAIN NAVIGATION */
